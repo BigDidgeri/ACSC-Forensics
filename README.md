@@ -1,6 +1,6 @@
 # ACSC-Forensics #
 
-## Getting Started ##
+## Section 1 - Getting Started ##
 ### GS-1 - How many hosts have we recieved data from? ###
 ```9```
 
@@ -14,3 +14,12 @@
 
 
 ### GS-4 - What website management platform are ALIEN using for their public facing website? Flag format: FullNameOfPlatform ###
+
+## Section 2 - Initial Access ##
+### IA-1 - The actor seems to have initially failed to install themselves on the web server. What IP address did their malicious wizardry come from? Flag format: IPv4 ###
+
+### IA-2 - It looks like the actor eventually succeeded in gaining access using a combination of multiple well-documented CVEs. Which of these is the most recent? Flag format: cve-1-1 ###
+
+### IA-3 - What was the filename of the first file created by the actor to test that their exploit worked? (We'll refer to this test file as sample 1) Flag format - filename.ext ###
+
+### IA-4 - After calling home, the actor finally succeeded in dropping their core tool, sample 2.What time (UTC) was this tool first used? Flag format: yyyy-mm-dd hh:mm:ss ###
